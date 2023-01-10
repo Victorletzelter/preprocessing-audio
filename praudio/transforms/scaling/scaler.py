@@ -5,6 +5,9 @@ from abc import abstractmethod
 
 import numpy as np
 
+import sys
+sys.path.insert(1, '/content/preprocessing-audio/')
+
 from praudio.transforms.transform import Transform
 from praudio.io.signal import Signal
 

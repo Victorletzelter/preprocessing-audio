@@ -7,7 +7,7 @@ from typing import List
 
 import sys
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.transforms.transform import Transform
 from praudio.io.signal import Signal

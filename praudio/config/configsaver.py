@@ -5,7 +5,7 @@ import logging
 import yaml
 
 import sys
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 logger = logging.getLogger(__name__)
 

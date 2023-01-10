@@ -2,6 +2,9 @@
 
 import numpy as np
 
+import sys
+sys.path.insert(1, '/content/preprocessing-audio/')
+
 from praudio.transforms.scaling.scaler import Scaler
 from praudio.transforms.transform import TransformType
 from praudio.errors import NotA2DSignalError

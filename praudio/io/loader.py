@@ -7,7 +7,7 @@ import numpy as np
 import numpy.typing as npt
 
 import sys
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.io.signal import Signal
 from praudio.utils import extract_extension_from_file

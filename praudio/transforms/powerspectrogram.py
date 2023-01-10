@@ -9,7 +9,7 @@ import numpy as np
 
 import sys
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.transforms.transform import TransformType, Transform
 from praudio.transforms.stft import STFT

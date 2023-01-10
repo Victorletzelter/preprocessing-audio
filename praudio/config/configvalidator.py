@@ -4,7 +4,7 @@ import logging
 from pathlib import Path
 
 import sys
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.errors import ParameterMissingError
 
