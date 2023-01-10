@@ -8,7 +8,7 @@ import os
 
 import sys
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.preprocessors.filepreprocessor import FilePreprocessor
 from praudio.utils import remove_extension_from_file, create_dir_hierarchy_from_file
