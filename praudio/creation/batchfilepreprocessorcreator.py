@@ -6,7 +6,7 @@ object from configurations.
 import logging
 
 import sys
-sys.path.insert(1, '/Users/victorletzelter/Documents/GitHub/praudio/')
+sys.path.insert(1, '/content/preprocessing-audio/')
 
 from praudio.preprocessors.batchfilepreprocessor import BatchFilePreprocessor
 from praudio.creation.filepreprocessorcreator import FilePreprocessorCreator
